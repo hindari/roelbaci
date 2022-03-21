@@ -11,7 +11,8 @@ jobs:
         command: |
          
           
-          sleep 2ss
+          sleep 2s
+          date
 
     - run:
         name: SetUp_Go
